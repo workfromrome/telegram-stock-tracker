@@ -71,6 +71,6 @@ if abs(percentage_change) >= 5:
 telegram_url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
 telegram_text = {
     "chat_id": MY_ID,
-    "text": "Test!
+    "text": "Test!"
 }
 requests.post(url=telegram_url, data=telegram_text)
