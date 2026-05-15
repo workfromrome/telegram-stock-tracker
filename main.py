@@ -1,3 +1,7 @@
+# Stock Tracker - NVDA
+# GitHub Actions ogni giorno feriale alle 14:00 UTC
+# Secrets richiesti: STOCK_API_KEY, NEWS_API_KEY, TELEGRAM_TOKEN, CHAT_ID
+
 from datetime import date, timedelta
 import requests
 import math
